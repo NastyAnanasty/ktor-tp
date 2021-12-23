@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "id": "e363f0d9-0f92-419f-8303-727fdffce25e",
+      "fileName": "0110annotation",
+      "fileType": "docx",
+      "author": "firstUser",
+      "createAt": "12.18.2021 16:45"
+    }
+  ],
+  "required": [
+    "id",
+    "fileName",
+    "fileType",
+    "author",
+    "createAt"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#/properties/id",
+      "type": "string",
+      "title": "The id schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "e363f0d9-0f92-419f-8303-727fdffce25e"
+      ]
+    },
+    "fileName": {
+      "$id": "#/properties/fileName",
+      "type": "string",
+      "title": "The fileName schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "0110annotation"
+      ]
+    },
+    "fileType": {
+      "$id": "#/properties/fileType",
+      "type": "string",
+      "title": "The fileType schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "docx"
+      ]
+    },
+    "author": {
+      "$id": "#/properties/author",
+      "type": "string",
+      "title": "The author schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "firstUser"
+      ]
+    },
+    "createAt": {
+      "$id": "#/properties/createAt",
+      "type": "string",
+      "title": "The createAt schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "12.18.2021 16:45"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

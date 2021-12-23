@@ -26,6 +26,8 @@ dependencies {
     testImplementation("io.ktor:ktor-server-tests:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
 
-    implementation ("org.jetbrains.exposed:exposed:0.17.14")
-    implementation ("com.h2database:h2:1.4.200")
+    implementation("org.jetbrains.exposed:exposed:0.17.14")
+    implementation("com.h2database:h2:1.4.200")
+
+    implementation("net.pwall.json:json-kotlin-schema:0.31")
 }
